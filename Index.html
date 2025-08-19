@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Xytherion</title>
+  <style>
+  
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #000;
+      background-image: url("https://pin.it/7MSATp0mC.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background: radial-gradient(ellipse at bottom, #100 0%, #000 100%);
+      color: white;
+    }
+    .audio-wrapper {
+      border: 3px solid red;
+      box-shadow: 0px 0px 10px red;/* garis merah */
+      padding: 15px;
+      border-radius: 15px;
+      margin: 5px/* sudut sedikit melengkung */
+      animation: fadeIn 1s ease-in-out;
+    }
+  
+    .welcome {
+    text-align: center;
+    font-size: 2em;
+    color: red
+  }
+  
+  .deskripsi {
+    text-align: center;
+    font-size: 1em;
+    color: red;
+  }
+  
+  .button {
+      background-color: transparent;
+      color: red;
+      cursor: pointer;
+      border-radius: 10px;
+      border: 1px solid red;
+  }
+  .button-bug {
+    background-color: transparent;
+    color: #555;
+    box-shadow:0px 0px 5px red;
+    border-radius:5px;
+    margin: 1px;
+    padding: 7px;
+  }
+  
+  .name-bug {
+    color: white;
+  }
+  .devloper {
+    background-color: transparent;
+    border: 2px solid red;
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 10px;
+  }
+  
+  .number-bug{
+    background-color: transparent;
+    border: 2px solid red;
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 10px;
+  }
+  
+  .note {
+    color: white;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+    font-size: 1em;
+  }
+  
+  .fadein {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .container {
+      background-color: black;
+      padding:20px 20px;
+      border-radius: 40px;
+      box-shadow: 0 0 15px #601;
+      width: 100%;
+      max-width: 480px;
+      animation: fadeIn 2s ease-in-out;
+    }
+  .box-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px red;
+    border: 2px solid red;
+    width: 90%;
+    max-width: 400px;
+  }
+    
+   .footer {
+      text-align: center;
+      padding: 10px;
+      background: transparent;
+      color: #ccc;
+      font-size: 14px;
+      position: sticky;
+      bottom: 0;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!--welcome-->
+<div class="fadein">
+  <div class="audio-wrapper">
+     <audio id="lagu" autoplay loop>
+      <source src="AUD-20250818-WA0174.mp3" type="audio/mpeg">
+     </audio>
+         <h1 class="welcome">𝚆𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚇𝚢𝚝𝚑𝚎𝚛𝚒𝚘𝚗 𝚋𝚞𝚐️☠️</h1>
+         <center>
+         <img src="Proyek Baru 11 [40FA0CF].png" alt="Xytherion" width="300" height="189"></center>
+         <p class="deskripsi">ᴊᴀɴɢᴀɴ ᴍᴇɴʏᴀʟᴀʜɢᴜɴᴀᴋᴀɴ ʙᴜɢ ɪɴɪ☠️☠️</p>
+      <center>
+         <button class="button" onclick="document.getElementById('lagu').play()">Play Music Nya Bang</button>
+        
+       </center>
+   </div>  <br><br><br><br><br><br>
+</div>  
+  <!--isi bug ampas nya-->
+ <center>
+   <div class="container">
+    <div class="box-container">
+      <h2 class="name-bug">
+        𝐂𝐫𝐚𝐬𝐡 𝐔𝐢
+        </h2>
+      <input class="number-bug" type="number" id="number-bug" placeholder="𝗖𝗿𝗮𝘀𝗵 𝗨𝗶 628×××">
+      <button class="button-bug" onclick="button">𝚂𝚎𝚗𝚍 𝙱𝚞𝚐</button>
+  </div><br><br><br><br><br><br>
+    <div class="box-container">
+       <h2 class="name-bug">
+         𝐈𝐧𝐯𝐢𝐬𝐢𝐛𝐥𝐞 𝐇𝐚𝐫𝐝
+       </h2>
+       <input class="number-bug" type="number" id="number-bug" placeholder="𝗜𝗻𝘃𝗶𝘀𝗶𝗯𝗹𝗲 𝗛𝗮𝗿𝗱 𝟲𝟮𝟴×××">
+       <button class="button-bug" onclick="button">𝚂𝚎𝚗𝚍 𝙱𝚞𝚐</button>
+    </div><br><br><br><br><br><br>
+       <div class="box-container">
+         <h2 class="name-bug">
+           𝐒𝐩𝐚𝐦 𝐏𝐚𝐢𝐫
+         </h2>
+         <input class="number-bug" type="number" id="number-bug" placeholder="𝙲𝚘𝚗𝚝𝚘𝚑 : 628××× 100 (𝚖𝚊𝚡 999999)">
+         <button class="button-bug" onclick="number">𝚂𝚎𝚗𝚍 𝙱𝚞𝚐</button>
+       </div>
+       <p class="note">𝙹𝚊𝚗𝚐𝚊𝚗 𝙱𝚞𝚐 𝚘𝚛𝚊𝚗𝚐 𝚝𝚒𝚍𝚊𝚔 𝚋𝚎𝚛𝚜𝚊𝚕𝚊𝚑 𝚋𝚛𝚘</p><br>
+       <a href="https://wa.me/6282239901930" target="_blank"><button class="devloper" onclick="nomor dev">devloper</button></a>
+  </div>
+</center>  
+    
+    <footer class="footer">© Bug Xytherion V1 </footer>
+</body>
+</html>
